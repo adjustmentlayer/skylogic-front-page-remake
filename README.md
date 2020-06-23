@@ -6,4 +6,4 @@
 ### 2.Изменил отображение информации, ссылаясь на UX принцип "прогрессивное раскрытие"
 Было | Стало
 ------------ | -------------
-![](screenshots/progressive-disclosure.gif) | ![](screenshots/progressive-disclosure-absent.PNG)
+![](screenshots/progressive-disclosure-absent.PNG) | ![](screenshots/progressive-disclosure.gif)
