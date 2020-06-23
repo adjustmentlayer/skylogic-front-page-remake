@@ -14,5 +14,5 @@ function app(initModel, update, view, node) {
     currentView = updatedView;
   }
 }
-
+ 
 export default app;

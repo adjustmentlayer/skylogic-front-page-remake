@@ -10,7 +10,7 @@ const initModel = {
         }
     ],
     selectedCategories:[
-
+ 
     ],
     slides: [
         {

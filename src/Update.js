@@ -9,7 +9,7 @@ export function sliderMouseWheelMsg(direction){
     type: MSGS.SLIDER_MOUSEWHEEL,
     direction
   }
-}
+} 
 
 function update(msg, model) {
   switch(msg.type){

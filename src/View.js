@@ -30,7 +30,7 @@ function wheel(event) {
   event.returnValue = false;
   return delta > 0 ? "up": "down";
 }
-
+ 
 
 
 function slideView(filteredSlides, className, position){
