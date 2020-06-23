@@ -8,4 +8,4 @@ live версия: http://rudomanenkovladimir.com/remakes/skylogic/
 ### 2.Изменил отображение информации, ссылаясь на UX принцип "прогрессивное раскрытие"
 Было | Стало
 ------------ | -------------
-![](screenshots/progressive-disclosure-absent-resized.PNG) | ![](screenshots/progressive-disclosure.gif)
+![](screenshots/progressive-disclosure-absent-resized.png) | ![](screenshots/progressive-disclosure.gif)
