@@ -92,6 +92,10 @@
   {
     max-height:300px;
   } 
+  .menu:checked ~ div
+  {
+    overflow:visible;
+  } 
   .hide-details{
     display:none;
   }
