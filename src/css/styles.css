@@ -91,7 +91,6 @@
   .expand:checked ~ div
   {
     max-height:300px;
-    overflow: visible!important;
   } 
   .hide-details{
     display:none;
