@@ -6,99 +6,109 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Skylogic</title>
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.9.0/css/tachyons.min.css" />
-  <!-- <script src="https://kit.fontawesome.com/09179831a3.js" crossorigin="anonymous"></script> -->
+  <script src="https://kit.fontawesome.com/09179831a3.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body class="sans-serif f3">
-  <header class="h4 w-100 mb4 pa2">
+<body class="sans-serif f3 pa2">
+  <header class=" w-100 mb4 pa2">
 
-    <div class="center h-100 mw8 flex justify-between items-end">
+    <div class="center h-100 mw8 flex flex-row-l flex-column justify-between-l items-center-l">
       <!--logo-->
-      <div class="mw5">
-        <img class="w-100" src="images/skylogiclogo.svg" alt="">
+      <div class="flex justify-between items-center">
+        <div class="mw5">
+          <img class="w-100 " src="images/skylogiclogo.svg" alt="">
+        </div>
+        
+        <label for="expand7" class="dn-l f6 red mb2 dim pointer"><span class="hide-details"><i class="fas fa-times fa-2x"></i></span> <span class="show-details"><i class="fas fa-hamburger fa-2x"></i></span> </label>
       </div>
+      
       <!-- nav -->
       
-      <nav class="">
-        <ul class="flex list f6">
-          <li class="relative ml2 items-center hide-child hover-bg-black br3 ">
-            <div class="absolute left-1 bottom--1 ba bw3 bt bt--black b--transparent w0 child"></div>
-            <a href="#" class=" link ph2 h2 gray hover-white flex items-center ">Продвижение сайтов</a>
-            <div class="absolute right-0 z-10 w5 pt3 child">
-              <ul class="flex flex-column list bg-light-gray pa2 pb0 br3">
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Продвижение стартапов</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Комплексное продвижение</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Социальные сети</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Контекст</a></li>
-              </ul>
-            </div>
-            
-          </li>
-          <li class="relative ml2 items-center hide-child hover-bg-black br3">
-            <div class="absolute left-1 bottom--1 ba bw3 bt bt--black b--transparent w0 child"></div>
-            <a href="#" class="link ph2 h2 gray hover-white flex items-center">Создание сайтов</a>
-            <div class="absolute right-0 z-10 w5 pt3 child">
-              <ul class="flex flex-column list bg-light-gray pa2 pb0 br3">
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Создание интернет магазина</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Разработка лендинга</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Разработка стартапов</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Корпаративные сайты</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Создание порталов/стартапов</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Web дизайн</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Редизайн сайта</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="relative ml2 items-center hide-child hover-bg-black br3">
-            <a href="#" class="link ph2 h2 gray hover-white flex items-center">Портфолио</a>
-          </li>
-          <li class="relative ml2 items-center hide-child hover-bg-black br3">
-            <div class="absolute left-1 bottom--1 ba bw3 bt bt--black b--transparent w0 child"></div>
-            <a href="#" class="link ph2 h2 gray hover-bg-black hover-white br3 flex items-center">Заказ</a>
-            <div class="absolute right-0 z-10 w5 pt3 child">
-              <ul class="flex flex-column list bg-light-gray pa2 pb0 br3">
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Интернет магазин</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Продвижение сайта</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Сайт под заказ</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Комплексная реклама</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Аудит вашего сайта</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Реклама в соц. сетях</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="relative ml2 items-center hide-child hover-bg-black br3">
-            <div class="absolute left-1 bottom--1 ba bw3 bt bt--black b--transparent w0 child"></div>
-            <a href="#" class="link ph2 h2 gray hover-white flex items-center">Еще</a>
-            <div class="absolute right-0 z-10 w5 pt3 child">
-              <ul class="flex flex-column list bg-light-gray pa2 pb0 br3">
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Виды сайтов</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Разработка логотипа</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Поддержка сайтов</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Аренда сайта</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Е-право</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="relative ml2 items-center hide-child hover-bg-black br3">
-            <div class="absolute left-1 bottom--1 ba bw3 bt bt--black b--transparent w0 child"></div>
-            <a href="#" class="link ph2 h2 gray hover-white flex items-center">Skylogic</a>
-            <div class="absolute right-0 z-10 w5 pt3 child">
-              <ul class="flex flex-column list bg-light-gray pa2 pb0 br3">
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Команда для стартапов</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Новости</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Статьи</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Клиенты</a></li>
-                <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Команда</a></li>
-              </ul>
-            </div>
-          </li>
-          <li class="relative ml2 items-center hide-child hover-bg-black br3">
-            <a href="#" class="link ph2 h2 gray hover-white flex items-center">Контакты</a>
-          </li>
-        </ul>
+      <input class="expand dn" type="checkbox" name="lorem" id="expand7">
         
-      </nav>
+        <div class="overflow-hidden overflow-visible-l flex justify-center items-center">
+          <nav class="mw5 mw-100-l ">
+            <ul class="flex flex-row-l flex-column list f6 pa0 ">
+              <li class="relative ml2 items-center hide-child hover-bg-black br3 ">
+                <div class="absolute left-1 bottom--1 ba bw3 bt bt--black b--transparent w0 child"></div>
+                <a href="#" class=" link ph2 h2 gray hover-white flex items-center ">Продвижение сайтов</a>
+                <div class="absolute right-0 z-10 w5 pt3 child">
+                  <ul class="flex flex-column list bg-light-gray pa2 pb0 br3">
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Продвижение стартапов</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Комплексное продвижение</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Социальные сети</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Контекст</a></li>
+                  </ul>
+                </div>
+                
+              </li>
+              <li class="relative ml2 items-center hide-child hover-bg-black br3 ">
+                <div class="absolute left-1 bottom--1 ba bw3 bt bt--black b--transparent w0 child"></div>
+                <a href="#" class="link ph2 h2 gray hover-white flex items-center">Создание сайтов</a>
+                <div class="absolute right-0 z-10 w5 pt3 child">
+                  <ul class="flex flex-column list bg-light-gray pa2 pb0 br3">
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Создание интернет магазина</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Разработка лендинга</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Разработка стартапов</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Корпаративные сайты</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Создание порталов/стартапов</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Web дизайн</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Редизайн сайта</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="relative ml2 items-center hide-child hover-bg-black br3">
+                <a href="#" class="link ph2 h2 gray hover-white flex items-center">Портфолио</a>
+              </li>
+              <li class="relative ml2 items-center hide-child hover-bg-black br3">
+                <div class="absolute left-1 bottom--1 ba bw3 bt bt--black b--transparent w0 child"></div>
+                <a href="#" class="link ph2 h2 gray hover-bg-black hover-white br3 flex items-center">Заказ</a>
+                <div class="absolute right-0 z-10 w5 pt3 child">
+                  <ul class="flex flex-column list bg-light-gray pa2 pb0 br3">
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Интернет магазин</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Продвижение сайта</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Сайт под заказ</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Комплексная реклама</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Аудит вашего сайта</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Реклама в соц. сетях</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="relative ml2 items-center hide-child hover-bg-black br3">
+                <div class="absolute left-1 bottom--1 ba bw3 bt bt--black b--transparent w0 child"></div>
+                <a href="#" class="link ph2 h2 gray hover-white flex items-center">Еще</a>
+                <div class="absolute right-0 z-10 w5 pt3 child">
+                  <ul class="flex flex-column list bg-light-gray pa2 pb0 br3">
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Виды сайтов</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Разработка логотипа</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Поддержка сайтов</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Аренда сайта</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Е-право</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="relative ml2 items-center hide-child hover-bg-black br3">
+                <div class="absolute left-1 bottom--1 ba bw3 bt bt--black b--transparent w0 child"></div>
+                <a href="#" class="link ph2 h2 gray hover-white flex items-center">Skylogic</a>
+                <div class="absolute right-0 z-10 w5 pt3 child">
+                  <ul class="flex flex-column list bg-light-gray pa2 pb0 br3">
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Команда для стартапов</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Новости</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Статьи</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Клиенты</a></li>
+                    <li class="mb2"><a class="link pb2 transition0 black hover-light-blue neon bgy-bottom bgx-left" href="#">Команда</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="relative ml2 items-center hide-child hover-bg-black br3">
+                <a href="#" class="link ph2 h2 gray hover-white flex items-center">Контакты</a>
+              </li>
+            </ul>
+            
+          </nav>
+        </div>
+      
     </div>
     
   </header>
@@ -249,4 +259,9 @@
           <a class="link red f7 underline-hover" href="#">читать о поддержке сайтов...</a>
         </div>
       </div>
-    </div>
+    </div>
+  </section>
+  <script src="bundle.js"></script>
+</body>
+
+</html>

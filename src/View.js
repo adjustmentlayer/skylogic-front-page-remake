@@ -92,11 +92,11 @@ function getSlides(model){
 
   if(filteredSlides.length >= 5){
     const slides = [
-      slideView(filteredSlides,'w6 mw6 h5 z-1 left--4 absolute top-0 narrow-50 shadow-1',1),
-      slideView(filteredSlides,'w6 mw6 h5 z-2 left-4 absolute top-0 narrow-75 shadow-1',2),
-      slideView(filteredSlides,'mw6 h5 center z-3 relative shadow-1',3),
-      slideView(filteredSlides,'w6 mw6 h5 z-2 right-4 absolute top-0 narrow-75 shadow-1',4),
-      slideView(filteredSlides,'w6 mw6 h5 z-1 right--4 absolute top-0 narrow-50 shadow-1',0),
+      slideView(filteredSlides,'w-80 mw6 h5 z-1 left--4 absolute top-0 narrow-50 shadow-1',1),
+      slideView(filteredSlides,'w-80 mw6 h5 z-2 left-4 absolute top-0 narrow-75 shadow-1',2),
+      slideView(filteredSlides,'w-90 w-70-l w-60-m w-50-ns mw6 h5 center z-3 relative shadow-1',3),
+      slideView(filteredSlides,'w-80 mw6 h5 z-2 right-4 absolute top-0 narrow-75 shadow-1',4),
+      slideView(filteredSlides,'w-80 mw6 h5 z-1 right--4 absolute top-0 narrow-50 shadow-1',0),
     ];
     return slides;
   }
