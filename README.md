@@ -10,5 +10,5 @@ live версия: http://rudomanenkovladimir.com/remakes/skylogic/
 ------------ | -------------
 ![](screenshots/progressive-disclosure-absent-resized.png) | ![](screenshots/progressive-disclosure.gif)
 
-### 3. Написал слайдер на JS, используя функциональный программирование JS
+### 3. Написал слайдер на JS, используя функциональное программирование
 ![](screenshots/fpjs.png)
