@@ -7,7 +7,7 @@ import {
   sliderMouseWheelMsg,
 } from './Update';
 
-const { div,a, pre } = hh(h);
+const { div,a,i, pre } = hh(h);
 
 
 // Обработчик события
@@ -48,6 +48,22 @@ function slideView(filteredSlides, className, position){
 }
 
 
+function controls(dispatch, model){
+  return div({className: 'flex justify-center mt3'},[
+    div(
+      {
+      className:'ph2',
+      onclick: () => dispatch(sliderMouseWheelMsg('up'), model),
+      },
+      i({className:'fas fa-angle-left fa-2x'})),
+    div(
+      {
+      className:'ph2',
+      onclick: () => dispatch(sliderMouseWheelMsg('down'), model),
+      },
+      i({className:'fas fa-angle-right fa-2x'}))
+  ]);
+}
 
 
 
@@ -111,6 +127,7 @@ function slider(dispatch, model){
         onmousewheel: e => dispatch(sliderMouseWheelMsg(wheel(e)), model),
     },[
       getSlides( model),
+      controls(dispatch, model),
     ]);
 }
 
